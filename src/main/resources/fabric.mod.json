@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "mmmindicators",
+	"version": "${version}",
+	"name": "Mmm Indicators",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"ElocinDev"
+	],
+	"contact": {
+		"homepage": "https://github.com/nvb-uy/MmmIndicators"
+	},
+	"license": "MIT",
+	"icon": "assets/mmmindicators/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+			"elocindev.indicators.MmmIndicators"
+		]
+	},
+	"mixins": [
+		"mmmindicators.mixins.json"
+	],
+	"depends": {
+		"fabricloader": "*",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}

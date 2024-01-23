@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "elocindev.indicators.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"client": [
+		"LivingEntityMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
